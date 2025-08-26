@@ -6,7 +6,7 @@ const chalk = require('chalk');
 //~~~~~~~~~~~~< SETTINGS >~~~~~~~~~~~~\\
 
 
-global.botname = 'Avi' //මෙතන්ට ඔයාගෙ බොට්ගෙ නම දාන්න
+global.botname = 'Avi' //BAHIRAVA XMD BOT
 global.listprefix = ['+','!','.'] //prefix එක දාන්න
 global.listv = ['✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json' 
@@ -65,6 +65,7 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
 
 
